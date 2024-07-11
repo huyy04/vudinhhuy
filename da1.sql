@@ -188,13 +188,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `userName`, `password`, `status`, `is_Admin`, `image`, `address`, `phone`, `gender`) VALUES
-(2, 'hahuu', 'huu@gmail.com', '$2y$10$j.vKZ9164xPoSpp3MiAnZuL0Z0svbwb1OBtzyylx1e0g3CHdDgHVC', NULL, 1, '403279a5d4284c61e632199ba4f48061.jpg', '', '', ''),
-(4, 'Anh Hải', 'haianh@gmail.com', '$2y$10$r6FPcVHNEiGbHuBZ/NO8o.BM1eO5N4oYXVhOxDgFASshIryyH/H9C', NULL, 0, 'OSEDE9306.JPG', 'Bắc Ninh', '0976599990', 'nam'),
-(6, 'hải anh', 'yolo@gmail.com', '123456', NULL, 1, '', 'BN', '0375820426', 'Nam'),
-(7, 'ph31341', 'nice@gmail.com', '123123', NULL, 0, '', 'Bắc Ninh', '1234566', ''),
-(12, 'Nguyễn Văn Cao', 'yes@gmail.com', '$2y$10$Vuj8g6oEKCNzzDDpr7Jk7uFkFq8Pahka.492jG1bRTTyMsfnKj/c2', NULL, 0, '', 'Vĩnh Phúc yolo', '11112444', ''),
-(13, 'Tấn', 'tannguvcl@gmail.com', '$2y$10$rDICbAqDBnY0S5AI6GDvyesGuEFw/PchfQ.Uhp5iGewybG4YxrzYa', NULL, 0, '', 'Nam Định', '12345665473', ''),
-(14, 'admin', 'abc@gmail.com', '$2y$10$Kw1SC55yd9a7L6EF5aPZc.YlA5cGga0UbtGoR46CPslcIlY0kBwNm', NULL, 0, '', 'Miền Nam', '1234566', '');
+(2, 'huy', 'huy@gmail.com', '$2y$10$j.vKZ9164xPoSpp3MiAnZuL0Z0svbwb1OBtzyylx1e0g3CHdDgHVC', NULL, 1, '403279a5d4284c61e632199ba4f48061.jpg', '', '', ''),
+(4, 'Vu Dinh Huy', 'vudinhhuy@gmail.com', '$2y$10$r6FPcVHNEiGbHuBZ/NO8o.BM1eO5N4oYXVhOxDgFASshIryyH/H9C', NULL, 0, 'OSEDE9306.JPG', 'Thai Binh', '0363192952', 'nam'),
+(14, 'admin', 'abc@gmail.com', '$2y$10$Kw1SC55yd9a7L6EF5aPZc.YlA5cGga0UbtGoR46CPslcIlY0kBwNm', NULL, 0, '', 'Viet Nam', '1234566', '');
 
 --
 -- Indexes for dumped tables
